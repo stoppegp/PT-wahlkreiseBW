@@ -1,0 +1,274 @@
+{
+	"1":{
+		"wk":"Stuttgart I",
+		"name":"Michael Knödler",
+		"g":"m"
+	},
+	"2":{
+		"wk":"Stuttgart II",
+		"name":"Felix Baumann",
+		"g":"m"
+	},
+	"3":{
+		"wk":"Stuttgart III",
+		"name":"Ingo Bach",
+		"g":"m"
+	},
+	"4":{
+		"wk":"Stuttgart IV",
+		"name":"Nikolai Kliewer",
+		"g":"m"
+	},
+	"5":{
+		"wk":"Böblingen",
+		"name":"Christian Pietsch",
+		"g":"m"
+	},
+	"6":{
+		"wk":"Leonberg",
+		"name":"Michael Armbrecht",
+		"g":"m"
+	},
+	"7":{
+		"wk":"Esslingen",
+		"name":"Marco Hauke",
+		"g":"m"
+	},
+	"8":{
+		"wk":"Kirchheim",
+		"name":"Marco Hauke",
+		"g":"m"
+	},
+	"9":{
+		"wk":"Nürtingen",
+		"name":"Ingo Mörl",
+		"g":"m"
+	},
+	"10":{
+		"wk":"Göppingen",
+		"name":"Julian Beier",
+		"g":"m"
+	},
+	"11":{
+		"wk":"Geislingen"
+	},
+	"12":{
+		"wk":"Ludwigsburg",
+		"name":"Oliver Schmidt",
+		"g":"m"
+	},
+	"13":{
+		"wk":"Vaihingen"
+	},
+	"14":{
+		"wk":"Bietigheim-Bissingen"
+	},
+	"15":{
+		"wk":"Waiblingen",
+		"name":"Doris Kimmel-Junghändel",
+		"g":"w"
+	},
+	"16":{
+		"wk":"Schorndorf",
+		"name":"Benjamin Bullmann",
+		"g":"m"
+	},
+	"17":{
+		"wk":"Backnang",
+		"name":"Philip Köngeter",
+		"g":"m"
+	},
+	"18":{
+		"wk":"Heilbronn"
+	},
+	"19":{
+		"wk":"Eppingen"
+	},
+	"20":{
+		"wk":"Neckarsulm"
+	},
+	"21":{
+		"wk":"Hohenlohe",
+		"name":"Matthias Jahn",
+		"g":"m"
+	},
+	"22":{
+		"wk":"Schwäbisch Hall"
+	},
+	"23":{
+		"wk":"Main-Tauber",
+		"name":"Falk Hagelstein",
+		"g":"m"
+	},
+	"24":{
+		"wk":"Heidenheim"
+	},
+	"25":{
+		"wk":"Schwäbisch Gmünd",
+		"name":"Volker Dyken",
+		"g":"m"
+	},
+	"26":{
+		"wk":"Aalen"
+	},
+	"27":{
+		"wk":"Karlsruhe I",
+		"name":"Konrad Scheffel",
+		"g":"m"
+	},
+	"28":{
+		"wk":"Karlsruhe II",
+		"name":"Erik Wohlfeil",
+		"g":"m"
+	},
+	"29":{
+		"wk":"Bruchsal"
+	},
+	"30":{
+		"wk":"Bretten",
+		"name":"Michael Schwiebert",
+		"g":"m"
+	},
+	"31":{
+		"wk":"Ettlingen"
+	},
+	"32":{
+		"wk":"Rastatt",
+		"name":"Heinz Kraft",
+		"g":"m"
+	},
+	"33":{
+		"wk":"Baden-Baden"
+	},
+	"34":{
+		"wk":"Heidelberg"
+	},
+	"35":{
+		"wk":"Mannheim I"
+	},
+	"36":{
+		"wk":"Mannheim II"
+	},
+	"37":{
+		"wk":"Wiesloch"
+	},
+	"38":{
+		"wk":"Neckar-Odenwald",
+		"name":"Tanja Wiedenmeyer",
+		"g":"w"
+	},
+	"39":{
+		"wk":"Weinheim"
+	},
+	"40":{
+		"wk":"Schwetzingen"
+	},
+	"41":{
+		"wk":"Sinsheim"
+	},
+	"42":{
+		"wk":"Pforzheim"
+	},
+	"43":{
+		"wk":"Calw",
+		"name":"Falk Jüttner",
+		"g":"m"
+	},
+	"44":{
+		"wk":"Enz"
+	},
+	"45":{
+		"wk":"Freudenstadt",
+		"name":"Claudio Schäl",
+		"g":"m"
+	},
+	"46":{
+		"wk":"Freiburg I"
+	},
+	"47":{
+		"wk":"Freiburg II"
+	},
+	"48":{
+		"wk":"Breisgau"
+	},
+	"49":{
+		"wk":"Emmendingen",
+		"name":"Julia Fiedler",
+		"g":"w"
+	},
+	"50":{
+		"wk":"Lahr",
+		"name":"Marco Rosenthal",
+		"g":"m"
+	},
+	"51":{
+		"wk":"Offenburg"
+	},
+	"52":{
+		"wk":"Kehl"
+	},
+	"53":{
+		"wk":"Rottweil"
+	},
+	"54":{
+		"wk":"Villingen-Schwenningen"
+	},
+	"55":{
+		"wk":"Tuttlingen-Donaueschingen"
+	},
+	"56":{
+		"wk":"Konstanz"
+	},
+	"57":{
+		"wk":"Singen"
+	},
+	"58":{
+		"wk":"Lörrach",
+		"name":"Sabine Schumacher",
+		"g":"w"
+	},
+	"59":{
+		"wk":"Waldshut",
+		"name":"Frank Brauer",
+		"g":"m"
+	},
+	"60":{
+		"wk":"Reutlingen",
+		"name":"Steffen Jung",
+		"g":"m"
+	},
+	"61":{
+		"wk":"Hechingen-Münsingen"
+	},
+	"62":{
+		"wk":"Tübingen",
+		"name":"Mike Bery",
+		"g":"m"
+	},
+	"63":{
+		"wk":"Balingen"
+	},
+	"64":{
+		"wk":"Ulm",
+		"name":"Falk-Peter Hirschel",
+		"g":"m"
+	},
+	"65":{
+		"wk":"Ehingen"
+	},
+	"66":{
+		"wk":"Biberach"
+	},
+	"67":{
+		"wk":"Bodensee"
+	},
+	"68":{
+		"wk":"Wangen"
+	},
+	"69":{
+		"wk":"Ravensburg"
+	},
+	"70":{
+		"wk":"Sigmaringen"
+	}
+}

@@ -1,0 +1,1042 @@
+html {
+  box-sizing: border-box !important;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+    box-sizing: border-box !important;
+}
+
+header, nav, section, article, aside, footer {
+   display:block;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ff8800;
+	font-size: 15px;
+	font-family: RobotoLight, sans-serif;
+	background-image: url('images/bg-tags.png');
+	background-position: center top;
+	background-attachment: fixed;
+	
+	
+}
+
+input {
+	font-family: RobotoLight, sans-serif;
+}
+
+/*#wrapper {
+	max-width: 1200px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+
+@font-face {
+  font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Roboto';
+    src: url('fonts/Roboto-Italic-webfont.eot');
+    src: url('fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Italic-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'Roboto';
+    src: url('fonts/Roboto-BoldItalic-webfont.eot');
+    src: url('fonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-BoldItalic-webfont.woff') format('woff'),
+         url('fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-BoldItalic-webfont.svg') format('svg');
+  font-weight: bold;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold-webfont.eot');
+    src: url('fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Bold-webfont.svg') format('svg');
+  font-weight: bold;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+    src: url('fonts/Roboto-Light-webfont.eot');
+    src: url('fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Light-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+    src: url('fonts/Roboto-LightItalic-webfont.eot');
+    src: url('fonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-LightItalic-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'RobotoLight';
+    src: url('fonts/Roboto-MediumItalic-webfont.eot');
+    src: url('fonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-MediumItalic-webfont.woff') format('woff'),
+         url('fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-MediumItalic-webfont.svg') format('svg');
+  font-weight: bold;
+  font-style: italic; 
+}
+@font-face {
+  font-family: 'RobotoLight';
+    src: url('fonts/Roboto-Medium-webfont.eot');
+    src: url('fonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('fonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Medium-webfont.svg') format('svg');
+  font-weight: bold;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'PoliticsHead';
+  src: url('fonts/PoliticsHead-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/PoliticsHead-Bold.otf')  format('opentype'),
+	     url('fonts/PoliticsHead-Bold.woff') format('woff'), url('fonts/PoliticsHead-Bold.ttf')  format('truetype'), url('fonts/PoliticsHead-Bold.svg#PoliticsHead-Bold') format('svg');
+}
+ 
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border-bottom: 1px solid #ddd;
+	padding: 0.5em 1em 0.5em 0.25em;
+}
+th {
+	text-align: left;
+	//color: #ff8800;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: disc outside none;
+	padding-left: 20px;
+}
+li {
+padding: 0.2em 0px 0.2em 0.2em;
+}
+
+a {
+	color: #ff8800;
+	text-decoration: none;
+	font-family: "Roboto";
+}
+a:hover, a:focus {
+	opacity: .8;
+	text-decoration: none;
+}
+a:hover img, a:focus img {
+	opacity: .8;
+}
+a:focus {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 160%;
+	margin: 0;
+	font-family: PoliticsHead;
+	font-weight: normal;
+}
+h2 {
+	font-size: 140%;
+	margin: 0;
+	font-family: Roboto;
+}
+h2.post-title, h2.post-title a {
+	font-family: Roboto;
+	font-weight: bold;
+	margin-top: 0 !important;
+	color: black;
+}
+h3 {
+	font-family: Roboto;
+	font-size: 105%;
+	margin: 0;
+}
+h4 {
+	font-family: RobotoLight;
+	font-weight: bold;
+	font-size: 100%;
+}
+.part > h1, .part > h2, .part > h3, .part > h4 {
+	margin-top: 20px;
+	margin-bottom: 18px;
+}
+.part > h1:first-child, .part > h2:first-child, .part > h3:first-child, .part > h4:first-child {
+	margin-top: 0;
+}
+.part > h1:last-child, .part > h2:last-child, .part > h3:last-child, .part > h4:last-child {
+	margin-bottom: 0;
+}
+.part p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.alignright {
+	float: right;
+	padding: 5px;
+}
+
+blockquote {
+	margin-left: 10px;
+	border-left: 5px solid #bbb;
+	padding-left: 10px;
+}
+
+hr {
+	border : 0;
+	width: 80%;
+	background-color: #ddd;
+	height: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#pagecontainer {
+	max-width: 1044px;
+	width: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#iecontainer {
+	max-width: 1044px;
+	width: 100%;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Header */
+header#mainheader {
+	width: 100%;
+	min-height: 170px;
+	position: relative;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+	background-image: url('images/hpheader.png');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+header#mainheader a.homelink {
+	display: block;
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}	
+header#mainheader a.homelink h1, .extrahomelink h1 {
+	font-family: PoliticsHead;
+	font-size: 200%;
+	color: black;
+	font-weight: normal;
+}
+header#mainheader a.homelink h2, .extrahomelink h2 {
+	font-family: Roboto;
+	font-size: 120%;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+}
+.extrahomelink {
+	display: none;
+}
+
+header#mainheader img#headerimage {
+	position: relative;
+	width: 170px;
+	left: 10px;
+	bottom: -5px;
+}
+header#mainheader img#headerimage ~ a.homelink {
+	left: 200px;
+	bottom: 27px;
+}
+
+/* Footer */
+footer#mainfooter {
+	width: 100%;
+	min-height: 40px;
+	text-align: right;
+	padding: 10px;
+	background-color: white;
+	
+}
+
+#mainfooter .footermenu ul {
+	list-style-type: none;
+	margin: 0;
+	right: 0;
+}
+#mainfooter .footermenu ul li {
+	display: inline-block;
+}
+#mainfooter .footermenu ul li:after {
+	content: " |";
+}
+#mainfooter .footermenu ul li:last-child:after {
+	content: "";
+}
+
+
+/* Content */
+
+
+div.content {
+//	display: table;
+	overflow: hidden;
+	width: 100%;
+	border-collapse: separate;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.contentrow {
+//	display: table-row;
+}
+div.contentrow > div {
+//	display: table-cell;
+}
+
+div.cleft {
+	width: 70%;
+	float: left;
+}
+div.cright {
+	width: 300px;
+	width: 30%;
+	padding-left: 10px;
+	float: right;
+}
+
+div.cbanner {
+	width: 100%;
+	height: 0px;
+	padding-top: 20%;
+	overflow: hidden;
+	margin-top: 20px;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.part img {
+	max-width: 100%;
+	height: auto;
+}
+div.cbanner.titleonly {
+	background-color: white;
+	padding-top: 0;
+	height: auto;
+	padding: 25px;
+}
+div.cbanner .post-image img { 
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+div.cbanner .banner-caption, div.cbanner h1.post-title {
+	display: inline-block;
+	font-family: PoliticsHead;
+	font-size: 150%;
+	padding: 7px;
+	background-color: white;
+	position: absolute;
+	left: 25px;
+	bottom: 20px;
+}
+.cbanner .banner-caption {
+	z-index: 99;
+}
+div.cbanner.titleonly .banner-caption, div.cbanner.titleonly h1.post-title {
+	display: inline;
+	padding: 0;
+	position: relative;
+	left: 0;
+	top: 0;
+	font-size: 160%;
+}
+
+
+div.part, aside.widget {
+	width: 100%;
+	background: white;
+	background: rgba(255, 255, 255, 1);
+	margin-bottom: 10px;
+	padding: 25px;
+	overflow: hidden;
+}
+.content .part {
+	margin-bottom: 10px;
+}
+div.part > p:first-child, .post-content > p:first-child, aside.widget > p:first-child {
+	margin-top: 0;
+}
+div.part > p:last-child, .post-content > p:last-child, aside.widget > p:last-child {
+	margin-bottom: 0;
+}
+aside .widget-title {
+	font-size: 140%;
+	font-weight: bold;
+	font-family: PoliticsHead;
+	margin-bottom: 20px;
+	text-align: right;
+	display: block;
+}
+.post-content {
+	margin-top: 0;
+}
+.part {
+	line-height: 1.5;
+}
+.part .post-title {
+	line-height: 1.2;
+} 
+.part .post-date {
+	font-size: 90%;
+}
+.part.titlecontainer {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.pagelinks {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.pagelinks a {
+	display: block;
+	background-color: white;
+	background: rgba(255, 255, 255, 1);
+	float: left;
+	height: 40px;
+	padding: 10px;
+	line-height: 20px;
+}
+
+.pagelinks .nextlink > a {
+	float: left;
+}
+.pagelinks .prevlink > a {
+	float: right;
+}
+
+.part img, aside.widget img {
+	max-width: 100%;
+	height: auto;
+}
+
+img.alignleft {
+	float: left;
+	margin: 10px;
+}
+img.alignright {
+	float: right;
+	margin: 10px;
+}
+
+aside.widget ul.menu, div.part ul.menu {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+aside.widget ul.menu > li, div.part ul.menu > li {
+	display: block;
+	width: 100%;
+	padding: 5px;
+}
+aside.widget ul.menu > li > a, div.part ul.menu > li > a {
+	display: block;
+	margin: -5px;
+	padding: 5px;
+}
+aside.widget ul.menu > li > a:hover, div.part ul.menu > li > a:hover {
+	background-color: #ff8800;
+	color: white;
+}
+aside.widget ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+aside.widget ul.menu li {
+	margin-top: 2px;
+}
+aside.widget ul.menu li > a {
+	display: block;
+	background-color: #ffddcc;
+	background-color: rgba(255,136,0,.1);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+aside.widget ul.menu li:hover {
+		background-color: transparent;
+}
+aside.widget {
+	font-size: 90%;
+}
+
+/* Steckbrief */
+a.steckbrief-link {
+	color: black;
+	display: block;
+}
+#steckbrief .text {
+	font-family: RobotoLight !important;
+	font-style: italic;
+	display: block;
+}
+
+/* Suche */
+
+#mainnav > form.search-form {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+
+	
+}
+#mainnav > form.search-form span.screen-reader-text {
+	display: none;
+	
+}
+#mainnav > form.search-form input.search-submit {
+	display: none;
+}
+#mainnav > form.search-form input.search-field {
+	background: white;
+	background-image: url('images/search_r1.png');
+	/*background-image: url('images/search_r1.png'), linear-gradient(90deg, #fff 0%, #fff 100%);*/
+	background-repeat: no-repeat, no-repeat;
+	background-position: right center, right center;
+	background-size: 36px auto, 36px auto;
+	width: 36px;
+	border: none;
+	border-left: 1px solid #ddd;
+	transition: width 0.5s ease-in-out;
+	color: white;
+	color: rgba(255, 255, 255, 0);
+	height: 99%;
+	cursor: pointer;
+	z-index: 106;
+}
+#mainnav > form.search-form input.search-field::-moz-placeholder {
+	color: transparent;
+	transition: color 0.5s ease-in-out;
+}
+ #mainnav > form.search-form input.search-field:-moz-placeholder {
+ 	color: transparent;
+	transition: color 0.5s ease-in-out;
+ }
+ #mainnav > form.search-form input.search-field::-webkit-input-placeholder {
+	color: transparent;
+	transition: color 0.5s ease-in-out;
+}
+#mainnav > form.search-form input.search-field:hover {
+		background: #ff8800;
+		background-image: url('images/search2_r1.png');
+/*		background-image: url('images/search2_r1.png'), linear-gradient(90deg, #ff8800 0%, #ff8800 100%);*/
+}
+#mainnav > form.search-form input.search-field:focus {
+	background-image: none;
+	width: 150px;
+	color: black;
+	background-color: white;
+	cursor: auto;
+}
+#mainnav > form.search-form input.search-field:focus::-moz-placeholder {
+	color: #555;
+}
+ #mainnav > form.search-form input.search-field:focus:-moz-placeholder {
+ 	color: #555;
+ }
+ #mainnav > form.search-form input.search-field:focus::-webkit-input-placeholder {
+	color: #555;
+}
+
+select {
+	padding: 5px;
+	background-color: white;
+}
+
+/* Navigation */
+#mainnav > input[type=checkbox] {
+	display: none;
+}
+#mainnav > label {
+	display: none;
+}
+#mainnav {
+	min-height: 40px;
+	overflow: auto;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-top: 0px;
+	z-index: 99;
+	padding-left: 10px;
+	padding-right: 40px;
+		margin-bottom: 20px;
+}
+
+#mainnav .subarrow {
+	display: none;
+}
+#mainnav > div > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#mainnav > div > ul > li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	overflow: visible;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+#mainnav > div > ul > li > a {
+	color: black;
+	display: block;
+	height: 40px;
+	line-height: 30px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+		font-family: PoliticsHead;
+		font-size: 120%;
+}
+#mainnav > div > ul > li:hover > a, #mainnav > div > ul > li > a:focus {
+	background-color: #ff8800;
+	color: white;
+}
+
+#mainnav > div > ul > li > div.lvl > ul {
+	display: none;
+}
+#mainnav > div > ul > li div.lvl > ul {
+	position: absolute;
+	top: 39px;
+	left: 0px;
+		list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	z-index: 100;
+}
+#mainnav > div > ul > li:hover > div.lvl > ul, #mainnav > div > ul > li > a:focus ~  div.lvl > ul {
+	display: block;
+
+}
+#mainnav > div > ul > li> $ul > li:focus {
+	display: block;
+}
+#mainnav > div > ul > li > div.lvl > ul li {
+		margin: 0;
+	padding: 0;
+	float: left;
+	overflow: visible;
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+#mainnav > div > ul > li > div.lvl > ul li > ul, #mainnav > div > ul > li > div.lvl > ul li > a {
+	float: left;
+}
+#mainnav > div > ul > li > div.lvl > ul li > a {
+	color: black;
+	display: inline-block;
+	height: 40px;
+	line-height: 30px;
+	padding: 5px;
+	width: 100%;
+	white-space:nowrap;
+}
+#mainnav > div > ul > li > div.lvl > ul li:hover > a, #mainnav > div > ul > li > div.lvl > ul li.current-menu-item > a, #mainnav > div > ul > li > div.lvl > ul li.current-menu-ancestor > a {
+	color: white;
+	background-color: #ff8800;
+}
+
+
+
+#mainnav > div > ul > li > div.lvl ul > li > div.lvl > ul {
+display: none;
+}	
+#mainnav > div > ul > li > div.lvl ul > li.menu-item-has-children {
+	white-space:nowrap;
+}
+#mainnav > div > ul > li > div.lvl ul > li.menu-item-has-children > a {
+	display: inline-block;
+	width: 100%;
+	float: none;
+}
+#mainnav > div > ul > li > div.lvl ul > li.menu-item-has-children > a > span:before {
+	content: "►";
+	float: right;
+	font-size: 80%;
+}
+#mainnav > div > ul > li > div.lvl ul > li.menu-item-has-children > a > span:after {
+	content: "";
+	text-align: right;
+	display: inline-block;
+	width: 25px;
+	padding-left: 5px;
+}
+#mainnav > div > ul > li > div.lvl ul > li.menu-item-has-children > div.lvl {
+	float: none;
+	display: inline-block;
+	width: 0px;
+	height: 100%;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	position: relative;
+	left: 0;
+	right: 0;
+}
+#mainnav > div > ul > li > div.lvl ul > li:hover > div.lvl > ul {
+	display: block;
+}
+#mainnav > div > ul > li > div.lvl ul > li > div.lvl > ul {
+	
+	position: absolute;
+	left: -5px;
+	top: -25px;
+	text-align: left;
+}	
+
+/* Post */
+
+.post.single .post-meta {
+	font-size: 90%;
+}
+.post.single .post-image, .page .post-image {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width:100%;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	height: 150px;
+	overflow: hidden;
+	background-position:center center;
+	background-size: 100% auto;
+}
+.post.single .post-image > img, .page .post-image > img {
+	width: 100%;
+	height: auto;
+}
+.single .post-content, .page .post-content {
+	//margin-top: 20px;
+}
+
+.shariff li {
+	padding: 0;
+}
+
+/* Kommentare */
+
+ol.commentlist, ol.commentlist ol {
+
+}
+ol.commentlist > li li {
+	padding-left: 6px;
+	margin-bottom: 10px;
+}
+ol.commentlist .comment-author {
+	font-family: Roboto;
+}
+ol.commentlist .comment-body p {
+	margin-top: 2px;
+}
+textarea#comment {
+	max-width: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+#mainnav > #logosmall {
+	display: none;
+}
+
+
+#mainnav > input[type=checkbox] {
+	display: block;
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#mainnav > label {
+	display: block;
+	height: 40px;
+	padding: 5px;
+	color: black;
+	background-color: white;
+	line-height: 30px;
+	text-align: left;
+	
+}
+#mainnav > label#lmenu2 {
+	display: none;
+}
+#mainnav {
+	position: relative;
+	padding-left: 0;
+	padding-right: 0;
+	height: auto;
+}
+#cbmenu:checked ~ div > ul {
+	max-height: 1000px;
+}
+#mainnav > div > ul > li:first-child:before {
+	content: " ";
+	display: block;
+	height: 1px;
+	width: 100%;
+	background-color: #ddd;
+}
+#cbmenu:checked ~ label#lmenu2 {
+	display: block;
+}
+#cbmenu:checked ~ label#lmenu1 {
+	display: none;
+}
+	#mainnav > div > ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+	position: relative;
+	left: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition:max-height 0.5s ease-in-out;
+}
+#mainnav > div > ul > li {
+	margin: 0;
+	padding: 0;
+	float: none;
+	overflow: visible;
+	position: relative;
+	left: 0;
+	top: 0;
+	height: auto;
+}
+#mainnav > div > ul > li > a {
+	color: black;
+	display: block;
+	height: 40px;
+	line-height: 30px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+}
+#mainnav > div > ul > li.current-menu-ancestor > a {
+	background-color: white;
+		color: black;
+}
+#mainnav > div > ul > li:hover > a, #mainnav > div > ul > li.current-menu-item > a{
+	background-color: white;
+	color: black;
+}
+#mainnav > div > ul > li > a:hover, #mainnav > div > ul > li.current-menu-item > a{
+	background-color: #ff8800;
+	color: white;
+}
+
+
+/* 2. ebene */
+#mainnav > div > ul > li div.lvl > ul {
+	display: block !important;
+}
+#mainnav > div > ul > li div.lvl > ul {
+	position: relative;
+	box-shadow:  none;
+		list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+}
+#mainnav > div > ul > li:hover div.lvl > ul {
+	display: block;
+
+}
+#mainnav div.lvl {
+	height: auto;
+	width: 100% !important;
+	display: block !important;
+}
+#mainnav > div > ul > li > div.lvl > ul li {
+		margin: 0;
+	padding: 0;
+	float: none;
+	overflow: visible;
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+#mainnav > div > ul > li > div.lvl > ul li > ul, #mainnav > div > ul > li > div.lvl > ul li > a {
+	float: none;
+}
+#mainnav > div > ul > li > div.lvl > ul li > a {
+	color: black;
+	display: block;
+	height: 40px;
+	line-height: 30px;
+	padding: 5px;
+	width: 100%;
+	white-space:nowrap;
+}
+#mainnav > div > ul > li > div.lvl > ul li:hover > a, #mainnav > div > ul > li > div.lvl > ul li.current-menu-ancestor > a {
+	color: black;
+	background-color: white;
+}
+#mainnav > div > ul > li > div.lvl > ul li:hover > a, #mainnav > div > ul > li > div.lvl > ul li.current-menu-item > a {
+	color: white;
+	background-color: #ff8800;
+}
+
+#mainnav > div > ul > li > div.lvl ul > li.menu-item-has-children > a > span:before {
+	content: "";
+	float: none;
+	width: 0;
+	height: 0;
+	font-size: 80%;
+}
+#mainnav > div > ul > li > div.lvl ul > li.menu-item-has-children > a > span:after {
+	content: "";
+	text-align: right;
+	display: inline-block;
+	width: 0px;
+	padding-left: 0px;
+}
+#mainnav > div > ul > li > div.lvl ul > li > div.lvl > ul {
+	position: relative;
+	box-shadow:  none;
+		list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	top: 0;
+	left: 0;
+	margin-left: 20px;
+}	
+#mainnav > form.search-form {
+	height: 40px;
+}
+
+div.content, div.contentrow, div.contentrow > div {
+	display: block;
+}
+.cright, .cleft {
+	padding: 0 !important;
+	width: 100% !important;
+	float: none;
+}
+
+header#mainheader a.homelink {
+display: none;
+}
+.extrahomelink {
+	display: block;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 10px;
+}
+
+.cbanner {
+	height: auto !important;
+	min-height: 80px;
+}
+.cbanner.titleonly {
+	min-height: 0;
+}
+.cbanner.longtitle {
+	height: auto !important;
+	padding: 0 !important;
+	margin-top: 0 !important;
+}
+
+.cbanner.longtitle .banner-caption {
+	position: relative !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: auto !important;
+	width: 100%;
+	display: block !important;
+	padding: 25px !important;
+}
+.cbanner.longtitle .post-image {
+	margin-top: 10px;
+}
+.cbanner .post-image img {
+		min-width: 400px;
+}
+.cbanner.longtitle .post-image img {
+	margin-top: 0 !important;
+		margin-bottom: -5px;
+	position: relative;
+}
+}
+
+
+@media only screen and (max-width: 488px) {
+header#mainheader {
+	display: block;
+	width: 100%;
+	height: 0;
+	padding-top: 36%;
+	background-image: url('images/hpheader-crop.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	min-height: 0;
+}	
+}
+
