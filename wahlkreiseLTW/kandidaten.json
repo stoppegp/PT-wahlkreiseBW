@@ -2,52 +2,62 @@
 	"1":{
 		"wk":"Stuttgart I",
 		"name":"Michael Knödler",
-		"g":"m"
+		"g":"m",
+		"link":"#michaelknoedler"
 	},
 	"2":{
 		"wk":"Stuttgart II",
 		"name":"Felix Baumann",
-		"g":"m"
+		"g":"m",
+		"link":"#felixbaumann"
 	},
 	"3":{
 		"wk":"Stuttgart III",
 		"name":"Ingo Bach",
-		"g":"m"
+		"g":"m",
+		"link":"#ingobach"
 	},
 	"4":{
 		"wk":"Stuttgart IV",
 		"name":"Nikolai Kliewer",
-		"g":"m"
+		"g":"m",
+		"link":"#nikolaikliewer"
 	},
 	"5":{
 		"wk":"Böblingen",
 		"name":"Christian Pietsch",
-		"g":"m"
+		"g":"m",
+		"link":"#christianpietsch"
 	},
 	"6":{
 		"wk":"Leonberg",
 		"name":"Michael Armbrecht",
-		"g":"m"
+		"g":"m",
+		"link":"#michaelarmbrecht"
 	},
 	"7":{
 		"wk":"Esslingen",
 		"name":"Marco Hauke",
-		"g":"m"
+		"g":"m",
+		"link":"#marcohauke"
 	},
 	"8":{
 		"wk":"Kirchheim",
 		"name":"Marco Hauke",
-		"g":"m"
+		"g":"m",
+		"link":"#marcohauke"
 	},
 	"9":{
 		"wk":"Nürtingen",
 		"name":"Ingo Mörl",
-		"g":"m"
+		"g":"m",
+		"link":"#ingomoerl"
 	},
 	"10":{
 		"wk":"Göppingen",
 		"name":"Julian Beier",
-		"g":"m"
+		"g":"m",
+		"link":"#julianbeier"
 	},
 	"11":{
 		"wk":"Geislingen"
@@ -55,7 +65,8 @@
 	"12":{
 		"wk":"Ludwigsburg",
 		"name":"Oliver Schmidt",
-		"g":"m"
+		"g":"m",
+		"link":"#oliverschmidt"
 	},
 	"13":{
 		"wk":"Vaihingen"
@@ -66,17 +77,20 @@
 	"15":{
 		"wk":"Waiblingen",
 		"name":"Doris Kimmel-Junghändel",
-		"g":"w"
+		"g":"w",
+		"link":"#doriskimmeljunghaendel"
 	},
 	"16":{
 		"wk":"Schorndorf",
 		"name":"Benjamin Bullmann",
-		"g":"m"
+		"g":"m",
+		"link":"#benjaminbullmann"
 	},
 	"17":{
 		"wk":"Backnang",
 		"name":"Philip Köngeter",
-		"g":"m"
+		"g":"m",
+		"link":"#philipkoengeter"
 	},
 	"18":{
 		"wk":"Heilbronn"
@@ -90,7 +104,8 @@
 	"21":{
 		"wk":"Hohenlohe",
 		"name":"Matthias Jahn",
-		"g":"m"
+		"g":"m",
+		"link":"#matthiasjahn"
 	},
 	"22":{
 		"wk":"Schwäbisch Hall"
@@ -98,7 +113,8 @@
 	"23":{
 		"wk":"Main-Tauber",
 		"name":"Falk Hagelstein",
-		"g":"m"
+		"g":"m",
+		"link":"#falkhagelstein"
 	},
 	"24":{
 		"wk":"Heidenheim"
@@ -106,7 +122,8 @@
 	"25":{
 		"wk":"Schwäbisch Gmünd",
 		"name":"Volker Dyken",
-		"g":"m"
+		"g":"m",
+		"link":"#volkerdyken"
 	},
 	"26":{
 		"wk":"Aalen"
@@ -114,12 +131,14 @@
 	"27":{
 		"wk":"Karlsruhe I",
 		"name":"Konrad Scheffel",
-		"g":"m"
+		"g":"m",
+		"link":"#konradscheffel"
 	},
 	"28":{
 		"wk":"Karlsruhe II",
 		"name":"Erik Wohlfeil",
-		"g":"m"
+		"g":"m",
+		"link":"#erikwohlfeil"
 	},
 	"29":{
 		"wk":"Bruchsal"
@@ -127,7 +146,8 @@
 	"30":{
 		"wk":"Bretten",
 		"name":"Michael Schwiebert",
-		"g":"m"
+		"g":"m",
+		"link":"#michaelschwiebert"
 	},
 	"31":{
 		"wk":"Ettlingen"
@@ -135,7 +155,8 @@
 	"32":{
 		"wk":"Rastatt",
 		"name":"Heinz Kraft",
-		"g":"m"
+		"g":"m",
+		"link":"#heinzkraft"
 	},
 	"33":{
 		"wk":"Baden-Baden"
@@ -154,8 +175,9 @@
 	},
 	"38":{
 		"wk":"Neckar-Odenwald",
-		"name":"Tanja Wiedenmeyer",
-		"g":"w"
+		"name":"Tanja Widenmeyer",
+		"g":"w",
+		"link":"#tanjawidenmeyer"
 	},
 	"39":{
 		"wk":"Weinheim"
@@ -172,7 +194,8 @@
 	"43":{
 		"wk":"Calw",
 		"name":"Falk Jüttner",
-		"g":"m"
+		"g":"m",
+		"link":"#falkjuettner"
 	},
 	"44":{
 		"wk":"Enz"
@@ -180,7 +203,8 @@
 	"45":{
 		"wk":"Freudenstadt",
 		"name":"Claudio Schäl",
-		"g":"m"
+		"g":"m",
+		"link":"#claudioschael"
 	},
 	"46":{
 		"wk":"Freiburg I"
@@ -194,12 +218,14 @@
 	"49":{
 		"wk":"Emmendingen",
 		"name":"Julia Fiedler",
-		"g":"w"
+		"g":"w",
+		"link":"#juliafiedler"
 	},
 	"50":{
 		"wk":"Lahr",
 		"name":"Marco Rosenthal",
-		"g":"m"
+		"g":"m",
+		"link":"#marcorosenthal"
 	},
 	"51":{
 		"wk":"Offenburg"
@@ -225,17 +251,20 @@
 	"58":{
 		"wk":"Lörrach",
 		"name":"Sabine Schumacher",
-		"g":"w"
+		"g":"w",
+		"link":"#sabineschumacher"
 	},
 	"59":{
 		"wk":"Waldshut",
 		"name":"Frank Brauer",
-		"g":"m"
+		"g":"m",
+		"link":"#frankbrauer"
 	},
 	"60":{
 		"wk":"Reutlingen",
 		"name":"Steffen Jung",
-		"g":"m"
+		"g":"m",
+		"link":"#steffenjung"
 	},
 	"61":{
 		"wk":"Hechingen-Münsingen"
@@ -243,7 +272,8 @@
 	"62":{
 		"wk":"Tübingen",
 		"name":"Mike Bery",
-		"g":"m"
+		"g":"m",
+		"link":"#mikebery"
 	},
 	"63":{
 		"wk":"Balingen"
@@ -251,7 +281,8 @@
 	"64":{
 		"wk":"Ulm",
 		"name":"Falk-Peter Hirschel",
-		"g":"m"
+		"g":"m",
+		"link":"#falkpeterhirschel"
 	},
 	"65":{
 		"wk":"Ehingen"
