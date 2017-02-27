@@ -48,6 +48,7 @@ class PT_wahlkreisebw {
 }
 
 add_shortcode( "pt-wahlkreisebw-ltw", array("PT_wahlkreisebw", "shortcodeLTW"));
+add_shortcode( "pt-wahlkreiseltw", array("PT_wahlkreisebw", "shortcodeLTW"));
 add_shortcode( "pt-wahlkreisebw-btw", array("PT_wahlkreisebw", "shortcodeBTW"));
 add_action( 'wp_footer', array("PT_wahlkreisebw", "incJS") );
 ?>
