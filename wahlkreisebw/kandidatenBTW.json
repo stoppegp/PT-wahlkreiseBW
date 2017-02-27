@@ -2,14 +2,12 @@
 	"258":{
 		"wk":"Stuttgart I",
 		"name":"Michael Knödler",
-		"g":"m",
-		"link":"#michaelknoedler"
+		"g":"m"
 	},
 	"259":{
 		"wk":"Stuttgart II",
 		"name":"Harald Hermann",
-		"g":"m",
-		"link":"#haraldhermann"
+		"g":"m"
 	},
 	"260":{
 		"wk":"Böblingen"
@@ -21,10 +19,14 @@
 		"wk":"Nürtingen"
 	},
 	"263":{
-		"wk":"Göppingen"
+		"wk":"Göppingen",
+		"name":"Johannes Haux",
+		"g":"m"
 	},
 	"264":{
-		"wk":"Waiblingen"
+		"wk":"Waiblingen",
+		"name":"Philip Köngeter",
+		"g":"m"
 	},
 	"265":{
 		"wk":"Ludwigsburg"
@@ -36,7 +38,9 @@
 		"wk":"Heilbronn"
 	},
 	"268":{
-		"wk":"Schwäbisch Hal - Hohenlohe"
+		"wk":"Schwäbisch Hal - Hohenlohe",
+		"name":"Alexander Brandt",
+		"g":"m"
 	},
 	"269":{
 		"wk":"Backnang - Schwäbisch Gmünd"
@@ -78,7 +82,9 @@
 		"wk":"Freiburg"
 	},
 	"282":{
-		"wk":"Lörrach-Mülheim"
+		"wk":"Lörrach-Mülheim",
+		"name":"Sabin Schumacher",
+		"g":"w"
 	},
 	"283":{
 		"wk":"Emmendingen-Lahr"
@@ -93,19 +99,25 @@
 		"wk":"Schwarzwald-Baar"
 	},
 	"287":{
-		"wk":"Konstanz"
+		"wk":"Konstanz",
+		"name":"Gregor Glück",
+		"g":"m"
 	},
 	"288":{
 		"wk":"Waldshut"
 	},
 	"289":{
-		"wk":"Reutlingen"
+		"wk":"Reutlingen",
+		"name":"Steffen Jung",
+		"g":"m"
 	},
 	"290":{
 		"wk":"Tübingen"
 	},
 	"291":{
-		"wk":"Ulm"
+		"wk":"Ulm",
+		"name":"Anja Hirschel",
+		"g":"w"
 	},
 	"292":{
 		"wk":"Biberach"
