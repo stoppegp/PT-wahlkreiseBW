@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Piraten-Tools / WahlkreiseLTW
-Plugin URI: https://github.com/PiratenGP/PT-openantrag
+Plugin Name: Piraten-Tools / WahlkreiseBW
+Plugin URI: https://github.com/PiratenGP/PT-wahlkreisebw
 Description: -
 Version: 0.0.1
 Author: @stoppegp
@@ -11,7 +11,7 @@ License: CC-BY-SA 3.0
 
 global $PT_infos;
 $PT_infos[] = array(
-	'name'		=>		'WahlkreiseLTW',
+	'name'		=>		'WahlkreiseBW',
 	'desc'		=>		'Infos tbd',
 );
 
@@ -26,5 +26,5 @@ if (!function_exists("piratentools_main_menu")) {
 
 
 
-require('wahlkreiseLTW/wahlkreiseLTW.php');
+require('wahlkreisebw/wahlkreisebw.php');
 ?>
