@@ -153,7 +153,7 @@ function showWKBTW(wkfid, wk) {
 		}
 		text = text + "</p>";
 	} else {
-		text = text + "<p>In diesem Wahlkreis ist leider kein Piratenkandidat aufgestellt.</p>"
+		text = text + "<p>In diesem Wahlkreis ist leider kein Piratenkandidat aufgestellt. <a href=\"https://piratenpartei-bw.de/wp-content/uploads/BTW2017_Baden-Wuerttemberg_Unterstuetzer.pdf\">Du kannst aber für unsere Landesliste unterschreiben</a>.</p>"
 	}
 	$("#wkfBTW_" + wkfid + "_wk").html(text);	
     $("#wkfBTW_" + wkfid + "_wk").show();
